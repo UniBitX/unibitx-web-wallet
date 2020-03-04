@@ -1,17 +1,22 @@
-# TurtleFannyPack
+# UniBitX Web Wallet
 
 ## Development server
 
 Install nvm via `wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash`
+
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 Then use nvm to install node via `nvm install 12`
+
 Tell nvm to use the version of node we just installed with `nvm use 12`
 
 Then finally install Angular with this command `npm install -g @angular/cli`
 
-Now your ready to type `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Now your ready to type `ng serve` for a dev server. 
+
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
